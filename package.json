@@ -1,0 +1,36 @@
+{
+  "name": "backend-zero",
+  "version": "1.0.0",
+  "description": "leaning",
+  "keywords": [
+    "nodejs",
+    "react"
+  ],
+  "homepage": "https://github.com/Trung19122/HocJS#readme",
+  "bugs": {
+    "url": "https://github.com/Trung19122/HocJS/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trung19122/HocJS.git"
+  },
+  "license": "ISC",
+  "author": "trung",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .app.js",
+    "dev": "nodemon .app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "connect-flash": "^0.1.1",
+    "dotenv": "^17.4.2",
+    "ejs": "^5.0.2",
+    "express": "4.18.2",
+    "express-session": "^1.19.0",
+    "multer": "^2.1.1",
+    "mysql2": "^3.22.3"
+  }
+}

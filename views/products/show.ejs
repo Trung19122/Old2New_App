@@ -1,0 +1,9 @@
+<%- include('../partials/header') %>
+<h1><%= product.title %></h1>
+<p>Giá: <%= Number(product.price).toLocaleString('vi-VN') %>đ</p>
+<p>Tình trạng: <%= product.condition_type %></p>
+<p>Mô tả: <%= product.description %></p>
+<p>Danh mục: <%= product.category %></p>
+<p>Người bán: <%= product.seller %> — <%= product.phone %></p>
+<a href="/products">Quay lại</a>
+<%- include('../partials/footer') %>

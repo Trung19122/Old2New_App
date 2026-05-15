@@ -1,0 +1,14 @@
+<%- include('../partials/header') %>
+<h1>Đồ cũ cần bán</h1>
+<div class="product-grid">
+  <% products.forEach(p => { %>
+    <div class="card">
+      <h3><%= p.title %></h3>
+      <p><%= Number(p.price).toLocaleString('vi-VN') %>đ</p>
+      <p><%= p.category %></p>
+      <p>Người bán: <%= p.seller %></p>
+      <a href="/products/<%= p.id %>">Xem chi tiết</a>
+    </div>
+  <% }) %>
+</div>
+<%- include('../partials/footer') %>
